@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    align-items: center;
+}
+
+.logo h2 {
+    font-size: 3rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero-first {
+    width: 70%;
+}
+
+.hero-first img {
+    width: 100%;
+}
+
+.hero-first-text {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.brand-info {
+    width:300px;
+    
+}
+.brand-info h1 {
+    font-size: 50px;
+    line-height: -0.5rem;
+}
+
+button {
+    background-color: rgb(255, 105, 105);
+    padding: 0.7rem 1.2rem;
+    border: none;
+    margin-top: 3rem;
+}
+
+button a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hero-second {
+    background-color: #000;
+    color: #fff;
+    padding: 1.5rem 1rem;
+    width: 100%;
+}
+
+.hero-second h2 {
+    color: orange;
+    font-size: 2rem;
+}
+
+.hero-second-item {
+    padding: 2rem 0;
+    border-bottom: 1px solid #a49eff;
+}
+.hero-second-itemoff{
+    padding: 2rem 0;
+}
+.hero-second-itemoff p{
+    margin-top: 1rem;
+    width: 230px;
+}
+
+.hero-second-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-second p {
+    font-size: 0.9rem;
+    color: #a49eff;
+    width: 250px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    gap:3rem ;
+}
+
+.toggle-btn {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.toggle-btn .bar {
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+}
+.images{
+    display: flex;
+    margin-top: 3rem;
+    gap:2rem;
+    margin-bottom: 2rem;
+}
+strong{
+    color:rgb(240, 12, 12) ;
+    font-size: 3rem;
+}
+h4{
+    font-family: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 170px;
+}
+.images p{
+    color:  #54517e;
+    width: 200px;
+}
+.brand-text{
+    color: #54517e;
+    width: 380px;
+    font-size: 20px;
+}
+
+@media(max-width:800px){
+    .toggle-btn {
+        display:flex;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+}
+
+nav ul.active {
+  display: flex;
+}
+
+
+
+    .hero-container {
+        display: block;
+    }
+
+    .hero-first {
+        width: 100%;
+    }
+
+    .brand-info {
+        width: 100%;
+    }
+
+    .hero-second {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .hero-first-text {
+        display: block;
+    }
+    .images{
+        flex-wrap: wrap;
+    }
+    .hero-second p{
+        width: 100%;  
+}
+.hidden {
+    display: none;
+  }}
